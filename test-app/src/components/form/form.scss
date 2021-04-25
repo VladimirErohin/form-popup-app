@@ -1,0 +1,55 @@
+$myColor: red;
+$borderShadow:0 2px 8px #dde1e3;
+$btnBack: #349beb;
+$btnColor:white;
+
+.forms {
+  //display: flex;
+  //justify-content: center;
+  //flex-direction: column;
+  //align-items: center;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: $borderShadow;
+  font-family: sans-serif;
+
+}
+
+.form__content {
+
+}
+.surname__field, .name__field{
+  padding-top: 8px;
+  //position: relative;
+}
+
+.btn__form {
+  cursor: pointer;
+  color: $btnColor;
+  background: $btnBack;
+  border-radius: 4px;
+  margin-top: 14px;
+  font-size: 16px;
+  padding: 2px 14px;
+  background: $btnBack;
+  border: none;
+}
+
+.btn__form:hover {
+  background-color: rgba(0, 155, 255, 0.36);
+}
+
+.btn__form:focus {
+  outline-style: none;
+}
+
+.error {
+  color: $myColor;
+  margin-left: 6px;
+}
